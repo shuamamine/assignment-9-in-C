@@ -8,7 +8,7 @@ int a[n], b[n];
  printf("enter values in array");
 for(int i = 0; i < n; i++)
 {
-  scanf("%d", a[i]);
+  scanf("%d", &a[i]);
 }
 printf("the copying of elements of array are :");
  for(int i = 0; i < n; i++)
