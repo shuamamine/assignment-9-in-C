@@ -19,3 +19,7 @@ for(int i = 1; i < n; i++)
   if(min < a[i])
     min = a[i];
 }
+printf("maximum element is %d", max);
+printf("minimum element is %d", min);
+  return 0;
+}
